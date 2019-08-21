@@ -9,6 +9,8 @@ import Membro from './componentes/Membro'
 import ComponenteComFuncao from './componentes/ComponenteComFuncao'
 import Pai from './componentes/Pai'
 import ComponenteClasse from './componentes/ComponenteClasse'
+import Contador from './componentes/Contador'
+import Hooks from './componentes/Hooks'
 
 const elemento = document.getElementById('root')
 
@@ -38,6 +40,10 @@ ReactDOM.render(
             <Pai />
 
             <ComponenteClasse valor='Sou um componente de classe!' />
+
+            <Contador  numeroInicial={100} />
+
+            <Hooks />
 
         </div>
     ,elemento)
